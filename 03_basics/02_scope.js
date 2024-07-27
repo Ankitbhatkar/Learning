@@ -1,6 +1,7 @@
+
+//scope 
 var c=300
 let a=2220;
-//scope 
 if (true) {
     let a=10;
     const b=20;
