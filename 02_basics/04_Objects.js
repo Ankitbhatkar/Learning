@@ -56,6 +56,9 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+// Destructuring
+
+
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -68,6 +71,8 @@ const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+// API JSON
 
 // {
 //     "name": "hitesh",

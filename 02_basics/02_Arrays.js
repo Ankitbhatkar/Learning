@@ -16,7 +16,7 @@
 
 // console.log(Array.isArray("ankit"));
 // console.log(Array.from("ankit"));
-//console.log(Array.from({name:"raju"}));//interesting
+// console.log(Array.from({name:"raju"}));//interesting
 
 
 const score1=100;
