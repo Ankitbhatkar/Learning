@@ -18,19 +18,19 @@ const user={
 
 // function chai(){
 // let name="ramu";
-//     console.log(this.username);
+//     console.log(this.name);
 // }
 // chai()
 
 // const chai=function (){
 //     let name="ramu";
-//         console.log(this.username);
+//         console.log(this.name);
 //     }
 //     chai()
 
 // const chai= ()=>{
 //         let name="ramu";
-//             console.log(this.username);
+//             console.log(this.name);
 //         }
 //         chai()
 
@@ -49,5 +49,5 @@ const user={
 // const getobj=()=>({age:12})
 // console.log(getobj())
 
-const myarr=[2,3,4,5]
-myarr.forEach(()=>())
+// const myarr=[2,3,4,5]
+// myarr.forEach(()=>())
