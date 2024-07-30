@@ -1,24 +1,4 @@
-// const myObject ={
-//     {
-//         languageName:"java",
-//         extentionName:"java"
-//     }
-//     {
-//         languageName:"javascript",
-//         extentionName:"js"
-//     }
-//     {
-//         languageName:"pyton",
-//         extentionName:"py"
-//     }
-//     {
-//         languageName:"c",
-//         extentionName:"c"
-//     }
-// }
-// for (const key in mybject) {
-//     console.log(key);
-// }
+
 
 const myObject ={
   
