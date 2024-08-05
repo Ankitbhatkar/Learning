@@ -71,7 +71,7 @@
         })
 
 
-
+//async await kewords focuse line 89
 
         const promiseFive= new Promise(
             function (resolve,reject){
@@ -85,3 +85,47 @@
                 }
                },1000)
             })
+
+        async function cosumepromiseFive()  {
+         
+            try {
+                const response = await promiseFive
+                console.log(response);
+                
+            } catch (error) {
+                console.log(error);
+                
+            }
+           }
+           cosumepromiseFive()
+
+            
+        // async function getAllData() {
+        //   try {
+        //     const response = await fetch("https://api.github.com/users/hiteshchoudhary");
+        //     const data = await response.json()
+        //     console.log(data);
+            
+            
+        //   } catch (error) {
+        //     console.log("E: error",error);
+            
+        //   }
+            
+        // }
+        // getAllData()
+
+
+        fetch("https://api.github.com/users/hiteshchoudhary")
+        .then((reasponse) => {
+            
+            return reasponse.json()
+        })
+        .then((data) => {
+            console.log(data);
+            
+        })
+        .catch((error) => {
+            console.log("Error:",error);
+            
+        })
