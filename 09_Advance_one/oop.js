@@ -1,42 +1,24 @@
-# javacript and class
+// const user ={
+//     username:"ankit",
+//     logincount :8,
+//     stgnedIn:true,
 
-## oop
-
-## Object
-- collection of properties and methods
-- tolowerCase
-
-
-## why use oop
-
-
-## part of oop
--object Literal
-```javascript
-const user ={
-    username:"ankit",
-    logincount :8,
-    stgnedIn:true,
-
-    getUserDetails: function(){
+//     getUserDetails: function(){
         // console.log("got user details form database");
         // console.log(`username:${this.username}`);
         // console.log(this);
         
         
         
-    }
-}
+    // }
+// }
 // console.log(user.username);
 // console.log(user.getUserDetails());
 // console.log(this);
 
 
-```
 
 
--Contructor Function
-```javascript
 //contructor function  (new)
 function user(username,logincount,isLoggedIn){
     this.username=username;
@@ -58,13 +40,8 @@ console.log(userTwo);
 
 
 
-```
--prototypes
--cLasses
--instance (new,this)
-```javascript
 
-/ instanceof
+// instanceof
 
 function Car(make, model, year) {
     this.make = make;
@@ -79,12 +56,4 @@ function Car(make, model, year) {
   console.log(auto instanceof Object);
   // Expected output: true
   
-  ```
 
-
-## 4 pillars
-
-Abstraction
-Encapsulation
-Inheritance
-Polymorphism
